@@ -23,7 +23,13 @@ pre {
     overflow-x: auto;
     font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
 }
-
+/* Make images responsive */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Center the image */
+}
 /* Links */
 a {
     color: #0056b3;
