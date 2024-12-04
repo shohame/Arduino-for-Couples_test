@@ -1,21 +1,30 @@
+/* General body styling */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.8;
-    text-align: right;
-    direction: rtl;
     margin: 20px;
     background-color: #f4f4f9;
     color: #333;
 }
 
-h1 {
-    color: #0056b3;
+/* Align Hebrew text to the left */
+h1, h3, p {
+    text-align: left;
+    direction: rtl;
 }
 
-h3 {
-    color: #007bff;
+/* Align code to the right */
+pre {
+    text-align: right;
+    direction: ltr;
+    background: #f8f9fa;
+    padding: 10px;
+    border-left: 4px solid #0056b3;
+    overflow-x: auto;
+    font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
 }
 
+/* Links */
 a {
     color: #0056b3;
     text-decoration: none;
@@ -25,6 +34,8 @@ a:hover {
     text-decoration: underline;
 }
 
-br {
-    line-height: 2em;
+/* Images */
+img {
+    display: block;
+    margin: 20px 0;
 }
