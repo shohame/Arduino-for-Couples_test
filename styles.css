@@ -9,13 +9,13 @@ body {
 
 /* Align Hebrew text to the left */
 h1, h3, p {
-    text-align: left;
+    text-align: right;
     direction: rtl;
 }
 
 /* Align code to the right */
 pre {
-    text-align: right;
+    text-align: left;
     direction: ltr;
     background: #f8f9fa;
     padding: 10px;
